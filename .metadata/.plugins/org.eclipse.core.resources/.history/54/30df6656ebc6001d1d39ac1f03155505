@@ -1,0 +1,5 @@
+package chap09_polymorphism.product;
+
+public class SamsungTv extends Tv {
+
+}

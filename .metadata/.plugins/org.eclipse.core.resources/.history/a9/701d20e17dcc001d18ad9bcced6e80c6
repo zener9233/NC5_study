@@ -1,0 +1,7 @@
+package chap98_homework.nc230327.member;
+
+public class Member {
+	private int no;
+	private String id;
+	private String name;
+}

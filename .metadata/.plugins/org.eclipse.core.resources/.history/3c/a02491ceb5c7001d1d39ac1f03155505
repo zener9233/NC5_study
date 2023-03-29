@@ -1,0 +1,13 @@
+package chap12_nestedclass;
+
+class Outer {
+	
+}
+
+public class _02_instanceOfNestedClass {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

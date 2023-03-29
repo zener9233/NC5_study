@@ -1,0 +1,10 @@
+package chap09_polymorphism.product;
+
+public class AirCon extends ElectronicDevice{
+	public int lastTemperature;
+	
+	public void powerOn() {
+		System.out.println("에어컨 전원을 켭니다. "
+				+ "설정된 온도는 " + lastTemperature);
+	}
+}

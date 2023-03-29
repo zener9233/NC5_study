@@ -1,0 +1,30 @@
+package chap16_collectionFramework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap06_class.car.Car;
+
+public class _07_iterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Map<String, String> map;
+		List<Car> cList = new ArrayList<Car>();
+		
+		Car car = 
+				new Car("현대", "제네시스", "은색", 5000);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

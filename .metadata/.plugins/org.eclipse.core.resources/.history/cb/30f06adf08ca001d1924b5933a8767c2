@@ -1,0 +1,17 @@
+package chap15_usefulClass;
+
+import java.util.Calendar;
+
+public class _21_calendarAdd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar cal = Calendar.getInstance();
+		
+		cal.set(2019, 4, 17);
+		
+		//7일 후
+		cal.add(Calendar.DATE, 7);
+	}
+
+}

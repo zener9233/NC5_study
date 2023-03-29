@@ -1,0 +1,11 @@
+package chap17_generic.clazz;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudyGroup<T> {
+	private List<T> groupList = 
+						new ArrayList<T>();
+	
+	
+}

@@ -1,0 +1,38 @@
+package chap17_generic;
+
+import chap17_generic.clazz.BoardFile;
+import chap17_generic.clazz.FreeBoard;
+
+public class _01_useOfGenericClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BoardFile<FreeBoard> fBoardFile = 
+					new BoardFile<FreeBoard>();
+		
+		FreeBoard fBoard = new FreeBoard();
+		fBoard.setfBoardNo(1);
+		fBoard.setfBoardTitle("test");
+		fBoard.setfBoardContent("test입니다.");
+		
+		fBoardFile.setT(fBoard);
+		
+		fBoardFile.setBoardNo(
+			fBoardFile.getT().getfBoardNo()
+		);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

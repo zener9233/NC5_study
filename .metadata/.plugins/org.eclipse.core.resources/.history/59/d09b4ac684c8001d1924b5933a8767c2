@@ -1,0 +1,17 @@
+package chap15_usefulClass;
+
+public class _04_String03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "bit-naver-cloud";
+		String str2 = "kiaCar";
+		String str3 = "aBcDeF";
+		int num1 = 1234;
+		double num2 = 1234.5678;
+		boolean a = true;
+		
+		
+	}
+
+}

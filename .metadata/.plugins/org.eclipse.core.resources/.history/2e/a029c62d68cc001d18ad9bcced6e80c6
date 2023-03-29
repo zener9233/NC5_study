@@ -1,0 +1,14 @@
+package chap16_collectionFramework;
+
+import java.util.Map;
+
+public class _07_iterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Map<String, String> map;
+		
+		
+	}
+
+}

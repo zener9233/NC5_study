@@ -1,0 +1,12 @@
+package chap15_usefulClass;
+
+import java.util.Calendar;
+
+public class _20_calDateCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar cal1 = Calendar.getInstance();
+	}
+
+}

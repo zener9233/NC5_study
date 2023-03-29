@@ -1,0 +1,17 @@
+package chap13_objectarray;
+
+import chap13_objectarray.clazz.English;
+import chap13_objectarray.clazz.ILecture;
+import chap13_objectarray.clazz.MathMetics;
+
+public class _02_interfaceArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ILecture[] lecArr = new ILecture[3];
+		
+		lecArr[0] = new English("영문법", 30, 100);
+		lecArr[1] = new MathMetics("미적분", 15, 120);
+	}
+
+}

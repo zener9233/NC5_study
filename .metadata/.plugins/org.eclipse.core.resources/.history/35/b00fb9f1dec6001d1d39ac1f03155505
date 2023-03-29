@@ -1,0 +1,9 @@
+package chap08_static.clazz;
+
+public class Car {
+	public static String grade;
+	public String company;
+	public String model;
+	public String color;
+	public int price;
+}

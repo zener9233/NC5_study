@@ -1,0 +1,21 @@
+package chap18_enum;
+
+public class _01_withOutEnum {
+	public static final int JAN = 1;
+	public static final int FEB = 2;
+	public static final int MAR = 3;
+	public static final int APR = 4;
+	public static final int MAY = 1;
+	public static final int JUN = 2;
+	public static final int JUL = 3;
+	public static final int AUG = 4;
+	public static final int SEP = 1;
+	public static final int OCT = 2;
+	public static final int NOV = 3;
+	public static final int DEC = 4;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+}

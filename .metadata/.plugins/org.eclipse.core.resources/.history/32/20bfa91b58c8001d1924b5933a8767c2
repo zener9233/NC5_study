@@ -1,0 +1,7 @@
+package chap13_objectarray.clazz;
+
+public class SubjectCntTime {
+	private String subject;
+	private int studentCnt;
+	private int lectureTime;
+}

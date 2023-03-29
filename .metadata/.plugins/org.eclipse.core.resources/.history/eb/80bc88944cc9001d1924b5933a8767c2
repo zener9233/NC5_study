@@ -1,0 +1,14 @@
+package chap15_usefulClass;
+
+import java.math.BigInteger;
+
+public class _15_bigInteger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//BigInteger 객체 생성
+		BigInteger bint1 = new BigInteger("1000");
+		BigInteger bint2 = BigInteger.valueOf(3000L);
+	}
+
+}

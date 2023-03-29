@@ -1,0 +1,11 @@
+package chap98_homework.nc230327.member;
+
+import java.util.Date;
+
+public class Member {
+	private int no;
+	private String id;
+	private String name;
+	private Date lastLoginDate;
+	private String Status = "Y";
+}

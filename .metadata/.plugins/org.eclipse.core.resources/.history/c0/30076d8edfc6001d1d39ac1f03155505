@@ -1,0 +1,10 @@
+package chap08_static;
+
+public class _01_useOfStatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//3. 클래스 변수와 클래스 메소드의 사용
+	}
+
+}

@@ -1,0 +1,14 @@
+package chap12_nestedclass.clazz;
+
+public class NestedClass {
+	class Mul {
+		int num1 = 10;
+		int num2 = 20;
+		
+		int result = num1 * num2;
+	}
+	
+	static class Div {
+		
+	}
+}

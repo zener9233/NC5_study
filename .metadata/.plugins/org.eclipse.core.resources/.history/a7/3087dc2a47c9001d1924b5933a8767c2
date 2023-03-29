@@ -1,0 +1,12 @@
+package chap15_usefulClass;
+
+public class _14_regex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//[a-zA-Z0-9]{20} a~z, A~Z, 0~9의 조합 20자리까지
+		//
+		String pattern = "[a-zA-Z0-9]{8, 20}+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
+	}
+
+}

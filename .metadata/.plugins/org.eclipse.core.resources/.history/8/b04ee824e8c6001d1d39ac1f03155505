@@ -1,0 +1,16 @@
+package chap09_polymorphism.product;
+
+public class Tv extends ElectronicDevice{
+	public int lastChannel;
+	
+	public void powerOn() {
+		System.out.println("TV의 전원을 켭니다.");
+		moveTo(lastChannel);
+	}
+	
+	public void powerOff() {
+		System.out.println("TV의 전원을 끕니다.");
+	}
+	
+	
+}

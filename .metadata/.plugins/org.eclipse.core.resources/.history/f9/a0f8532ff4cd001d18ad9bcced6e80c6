@@ -1,0 +1,19 @@
+package chap18_enum.eunms;
+
+public enum Season {
+	SPRING("봄"), SUMMER("여름"), FALL("가을"), WINTER("겨울");
+	
+	private String koreaSeason;
+	
+	Season(String koreaSeason) {
+		this.koreaSeason = koreaSeason;
+	}
+
+	public String getKoreaSeason() {
+		return koreaSeason;
+	}
+	
+	public abastract void printMonth() {
+		
+	}
+}

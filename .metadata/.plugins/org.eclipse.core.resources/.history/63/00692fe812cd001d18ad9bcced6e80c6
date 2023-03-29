@@ -1,0 +1,46 @@
+package chap17_generic.clazz;
+
+public class BoardFile<T> {
+	private int boardNo;
+	private int tyte;
+	private String boardFileNm;
+	
+	private T t;// = FreeBoard fBoard
+
+	public int getBoardNo() {
+		return boardNo;
+	}
+
+	public void setBoardNo(int boardNo) {
+		this.boardNo = boardNo;
+	}
+
+	public int getTyte() {
+		return tyte;
+	}
+
+	public void setTyte(int tyte) {
+		this.tyte = tyte;
+	}
+
+	public String getBoardFileNm() {
+		return boardFileNm;
+	}
+
+	public void setBoardFileNm(String boardFileNm) {
+		this.boardFileNm = boardFileNm;
+	}
+
+	public T getT() {
+		return t;
+	}
+
+	public void setT(T t) {
+		this.t = t;
+	}
+
+	@Override
+	public String toString() {
+		return "BoardFile [boardNo=" + boardNo + ", tyte=" + tyte + ", boardFileNm=" + boardFileNm + ", t=" + t + "]";
+	}	
+}

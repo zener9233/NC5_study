@@ -1,0 +1,20 @@
+package chap15_usefulClass;
+
+public class _03_String02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "computer";
+		String str2 = "smartPhone";
+		
+		//포함여부 검사
+		if(str1.contains("tP")) {
+			System.out.println("str1은 tP를 "
+					+ "포함합니다.");
+		} else {
+			System.out.println("str1은 tP를 "
+					+ "포함하지 않습니다.");
+		}
+ 	}
+
+}

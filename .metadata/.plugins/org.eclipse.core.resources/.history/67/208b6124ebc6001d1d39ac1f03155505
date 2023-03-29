@@ -1,0 +1,7 @@
+package chap09_polymorphism.product;
+
+public class LgTv extends Tv {
+	public void powerOn() {
+		super.powerOn();
+	}
+}	

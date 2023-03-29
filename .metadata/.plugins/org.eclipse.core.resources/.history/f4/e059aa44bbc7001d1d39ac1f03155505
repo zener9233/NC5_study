@@ -1,0 +1,16 @@
+package chap12_nestedclass;
+
+class NestedClass {
+	class Mul {
+		
+	}
+}
+
+public class _03_instanceOfNestedClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

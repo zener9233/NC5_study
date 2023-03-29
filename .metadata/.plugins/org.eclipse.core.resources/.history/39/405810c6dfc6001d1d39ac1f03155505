@@ -1,0 +1,15 @@
+package chap08_static;
+
+import chap08_static.clazz.Car;
+
+public class _01_useOfStatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//3. 클래스 변수와 클래스 메소드의 사용
+		//   객체 생성없이 바로 사용가능
+		Car.grade = "A";
+		Car.printCurrentGrade();
+	}
+
+}

@@ -1,0 +1,15 @@
+package chap12_nestedclass.clazz;
+
+public class Add implements Calc {
+	Calc cal = new Calc() {
+		
+	};
+
+	@Override
+	public int calculator(int a, int b) {
+		// TODO Auto-generated method stub
+		
+		return a + b;
+	}
+
+}

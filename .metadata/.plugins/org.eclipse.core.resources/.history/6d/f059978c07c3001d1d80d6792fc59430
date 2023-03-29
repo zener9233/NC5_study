@@ -1,0 +1,23 @@
+package chap99_etc;
+
+import java.util.Scanner;
+
+public class _05_inputNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("1~200사이의 숫자를 입력하세요. : ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//컴퓨터는 변수에 1~200 랜덤값
+		int com;
+		
+		while(true) {
+			//사용자 입력 정수 받기 nextInt
+			
+			//201이면 while문 종료
+		}
+	}
+
+}

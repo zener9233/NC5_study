@@ -1,0 +1,6 @@
+package chap17_generic.clazz;
+
+public class GroupA implements Group {
+	private Map<String, String> memMap =
+			new HashMap<String, String>
+}

@@ -1,0 +1,6 @@
+package chap11_interface.buildings;
+
+public interface Buildinhg {
+	String price = "expensive";
+	int floors = 120;
+}

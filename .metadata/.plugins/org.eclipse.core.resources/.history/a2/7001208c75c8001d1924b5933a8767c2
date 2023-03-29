@@ -1,0 +1,23 @@
+package chap15_usefulClass;
+
+public class _01_object {
+	public static class Example 
+			implements Cloneable {
+		public Object clone() {
+			Object obj = null;
+			try {
+				obj = super.clone();
+			} catch(CloneNotSupportedException ce) {
+				System.out.println(ce.getMessage());
+			}
+			return obj;
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Example ex1 = new Example();
+		Example ex2 = (Example)ex1.clone();
+	}
+
+}

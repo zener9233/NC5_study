@@ -1,0 +1,31 @@
+package chap17_generic;
+
+import chap17_generic.clazz.BoardFile;
+import chap17_generic.clazz.FreeBoard;
+import chap17_generic.clazz.NoticeBoard;
+
+public class _01_useOfGenericClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//자유게시판 게시글에 대한 첨부파일
+		BoardFile<FreeBoard> fBoardFile = 
+				new BoardFile<FreeBoard>();
+		
+		fBoardFile.setT(new FreeBoard());
+		
+		//공지사항 게시글에 대한 첨부파일
+		BoardFile<NoticeBoard> nBoardFile =
+				new BoardFile<NoticeBoard>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

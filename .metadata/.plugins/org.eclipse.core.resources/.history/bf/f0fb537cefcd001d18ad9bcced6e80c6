@@ -1,0 +1,14 @@
+package chap18_enum.eunms;
+
+public enum Calculator {
+	PLUS("+"), MINUS("-"), 
+	MULTIPLY("*"), DIVIDE("/");
+	
+	private String operator;
+	
+	Calculator(String operator) {
+		this.operator = operator;
+	}
+	
+	
+}

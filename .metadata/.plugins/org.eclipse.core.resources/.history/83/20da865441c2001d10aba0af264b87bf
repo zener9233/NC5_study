@@ -1,0 +1,24 @@
+package chap99_etc;
+
+public class _01_printReverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "AbcDeF";
+		
+		//대소문자 변환 된 문자열
+		String capStr = "";
+		
+		//fEdCBa
+		for(int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			
+			char capCh = ch >= 'A' && ch <= 'Z' ?
+					(char)((int)ch + 32) : 
+					(char)((int)ch - 32);
+			
+			capStr += capCh
+		}
+	}
+
+}

@@ -1,0 +1,55 @@
+package chap18_enum.eunms;
+
+public enum RGB {
+	//상수명 RED("red", 255, 0, 0), 
+	//	   GREEN, 
+	//     BLUE
+	RED("red", 255, 0, 0) {
+		public void makeWhite() {
+			String[] color = {"red", "green", "blue"};
+			
+			int index = 0;
+			
+			for(String s : color) {
+				if(index == 0) {
+					
+				} else {
+					
+				}
+			}
+		}
+	},
+	GREEN("green", 0, 255, 0),
+	BLUE("blue", 0, 0, 255);
+	
+	private String colorStr;
+	private int red;
+	private int green;
+	private int blue;
+	
+	RGB(String colorStr, int red, int green,
+			int blue) {
+		this.colorStr = colorStr;
+		this.red = red;
+		this.green = green;
+		this.blue = blue;
+	}
+
+	public String getColorStr() {
+		return colorStr;
+	}
+
+	public int getRed() {
+		return red;
+	}
+
+	public int getGreen() {
+		return green;
+	}
+
+	public int getBlue() {
+		return blue;
+	}
+	
+	public abstract void makeWhite();
+}

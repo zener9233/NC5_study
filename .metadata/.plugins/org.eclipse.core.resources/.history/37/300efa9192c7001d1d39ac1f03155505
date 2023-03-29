@@ -1,0 +1,29 @@
+package chap10_abstraction.academy;
+
+@Controller
+public class ComputerAcademy extends Academy{
+	//어노테이션 @~~~
+	@Override
+	public void teach() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void solveHomework() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void rest() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void attend() {
+		// TODO Auto-generated method stub
+		
+	}
+}

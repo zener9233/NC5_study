@@ -1,0 +1,11 @@
+package chap98_homework.nc230317;
+
+public class UseOfCalc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calc[] calcs = new Calc[4];
+		calcs = new Add();
+	}
+
+}

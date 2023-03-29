@@ -1,0 +1,14 @@
+package chap98_homework.nc230320;
+
+import chap98_homework.nc230320.arrayutils.ArrayUtility2;
+
+public class ArrayUtilTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub'
+		int[] arr = {1, 2, 3, 4};
+		int[] arr2 = {3, 4, 5, 6};
+		System.out.println(ArrayUtility2.remove(arr, arr2));
+	}
+
+}

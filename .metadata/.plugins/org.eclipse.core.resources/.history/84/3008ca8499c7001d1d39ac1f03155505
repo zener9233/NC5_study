@@ -1,0 +1,47 @@
+package chap11_interface.multiinherit;
+
+public class SeoulMultiflexStadium 
+				implements MultiflexStadium {
+
+	@Override
+	public void getSportsSchedule(int month) {
+		// TODO Auto-generated method stub
+		System.out.println(month + "월에 예정된 경기는 수원 대 서울입니다.");
+	}
+
+	@Override
+	public int getSportsTicketPrice(int people) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void getSupportersItem(int people) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void printSchedule(int month) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getTicketPrice(int people) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void getRemainSeat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void playSportsAndConcert() {
+		// TODO Auto-generated method stub
+		
+	}
+}

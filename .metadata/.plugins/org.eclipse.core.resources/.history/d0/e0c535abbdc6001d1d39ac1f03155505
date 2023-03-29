@@ -1,0 +1,33 @@
+package chap07_inherit.animal;
+
+public class Tiger extends Animal {
+	public String meat;
+	public boolean isSwimming;
+	public boolean hasPattern;
+	public String color;
+	
+	public Tiger() {
+		
+	}
+	
+	public Tiger(String meat, boolean isSwimming, 
+			boolean hasPattern, String color,
+			int age, int size, int legCnt, 
+			boolean hasWing) {
+		this.meat = meat;
+		this.isSwimming = isSwimming;
+		this.hasPattern = hasPattern;
+		this.color = color;
+		
+		//부모의속성 초기화
+		this.age = age;
+		this.size = size;
+		this.legCnt = legCnt;
+		
+		
+		
+		
+		
+		
+	}
+}

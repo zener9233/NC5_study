@@ -1,0 +1,13 @@
+package chap18_enum;
+
+import chap18_enum.eunms.ValueMonth;
+
+public class _03_useOfEnumValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//enum의 객체를 만들 때 생성자가 자동으로 호출
+		ValueMonth mar = ValueMonth.MAR;
+	}
+
+}

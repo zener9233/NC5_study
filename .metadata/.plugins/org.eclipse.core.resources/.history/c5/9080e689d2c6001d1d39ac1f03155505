@@ -1,0 +1,15 @@
+package chap07_inherit;
+
+import chap07_inherit.car.KiaCarInherit;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		KiaCar kia = new KiaCar();
+		
+		kia.
+		
+	}
+
+}

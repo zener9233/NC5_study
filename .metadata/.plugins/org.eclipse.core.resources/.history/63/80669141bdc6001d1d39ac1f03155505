@@ -1,0 +1,10 @@
+package chap07_inherit.animal;
+
+public class Tiger extends Animal {
+	public String meat;
+	public boolean isSwimming;
+	public boolean hasPattern;
+	public String color;
+	
+	public Tiger() {};
+}

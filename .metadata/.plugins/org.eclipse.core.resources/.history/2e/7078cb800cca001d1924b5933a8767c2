@@ -1,0 +1,16 @@
+package chap15_usefulClass;
+
+import java.text.DecimalFormat;
+
+public class _23_decimalFormat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DecimalFormat df = 
+				new DecimalFormat("###,###");
+		
+		int price = 100000;
+		
+	}
+
+}

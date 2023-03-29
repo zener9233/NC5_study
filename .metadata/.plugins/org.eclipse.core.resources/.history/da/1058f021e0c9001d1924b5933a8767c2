@@ -1,0 +1,16 @@
+package chap98_homework.nc230323.student;
+
+public class CommonStat {
+	//학번
+	public int sno;
+	//이름
+    public StringBuffer name;
+    //해당 학생이 수강한 과목배열
+    public String[] subject;
+	public int[] finalExam;
+	
+	public CommonStat(int sno, StringBuffer name) {
+		this.sno = sno;
+		this.name = name;
+	}
+}

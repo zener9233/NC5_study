@@ -1,0 +1,11 @@
+package chap15_usefulClass;
+
+public class _23_decimalFormatter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DecimalFormatter df = 
+				new DecimalFormatter("###,###");
+	}
+
+}

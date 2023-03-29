@@ -1,0 +1,15 @@
+package chap15_usefulClass;
+
+public class _12_boxing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 100;
+		
+		//                원시타입을 객체로 만들어줌 => 박싱
+		Integer objNum1 = (Integer)num1;
+		
+		
+	}
+
+}

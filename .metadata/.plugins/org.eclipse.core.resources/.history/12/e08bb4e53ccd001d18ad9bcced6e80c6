@@ -1,0 +1,14 @@
+package chap18_enum;
+
+import chap18_enum.eunms.CusMonth;
+
+public class _01_useOfEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(CusMonth c : CusMonth.values()) {
+			System.out.println();
+		}
+	}
+
+}

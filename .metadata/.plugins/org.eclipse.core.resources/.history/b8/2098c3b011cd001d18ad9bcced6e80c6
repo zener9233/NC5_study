@@ -1,0 +1,11 @@
+package chap17_generic;
+
+public class _01_useOfGenericClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BoardFile<FreeBoard> fBoardFile = 
+						new BoardFile<FreeBoard>();
+	}
+
+}

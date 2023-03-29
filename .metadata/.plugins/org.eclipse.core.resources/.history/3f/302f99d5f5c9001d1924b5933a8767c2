@@ -1,0 +1,19 @@
+package chap15_usefulClass;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class _20_calDateCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar cal1 = Calendar.getInstance();
+		cal1.set(2018, 5, 7);
+		
+		//Calendar -> Date 형변환
+		Date d1 = new Date(cal1.getTimeInMillis());
+		
+		
+	}
+
+}

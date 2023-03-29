@@ -1,0 +1,8 @@
+package chap08_static.clazz;
+
+public class Height {
+	public void twoHeightSum() {
+		int a = 180;
+		int b = 176;
+	}
+}

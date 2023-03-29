@@ -1,0 +1,24 @@
+package chap16_collectionFramework;
+
+public class _06_hashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> strSet = 
+				new HashSet<String>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

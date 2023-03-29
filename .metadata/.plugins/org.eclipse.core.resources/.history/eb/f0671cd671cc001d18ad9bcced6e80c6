@@ -1,0 +1,30 @@
+package chap16_collectionFramework;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class _08_hashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, String> carMap =
+				new HashMap<String, String>();
+		
+		//key, value의 쌍 저장
+		carMap.put("company", "현대");
+		carMap.put("model", "소나타");
+		carMap.put("color", "검정색");
+		carMap.put("price", "4000");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

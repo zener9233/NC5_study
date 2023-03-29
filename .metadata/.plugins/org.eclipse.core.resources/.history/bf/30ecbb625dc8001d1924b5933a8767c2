@@ -1,0 +1,12 @@
+package chap14_exception;
+
+public class _01_tryCatchFinally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		while(true) {
+			
+		}
+	}
+
+}

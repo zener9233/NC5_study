@@ -1,0 +1,11 @@
+package chap15_usefulClass;
+
+public class _02_String01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "bitcamp";
+		String str2 = new String("bitcamp");
+	}
+
+}

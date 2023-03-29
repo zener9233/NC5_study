@@ -1,0 +1,8 @@
+package chap07_inherit.animal;
+
+public class Bear {
+	private boolean omnivore;
+	private boolean likesHoney;
+	private String habitat;
+	private String species;
+}

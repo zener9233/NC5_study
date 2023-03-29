@@ -1,0 +1,5 @@
+package chap99_etc.game;
+
+public class Lotto {
+	//1~45까지 7개의 난수
+}

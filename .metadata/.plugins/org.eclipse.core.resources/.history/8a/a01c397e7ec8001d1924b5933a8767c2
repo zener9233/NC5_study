@@ -1,0 +1,40 @@
+package chap15_usefulClass;
+
+public class _02_String01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "bitcamp";
+		String str2 = new String("bitcamp");
+		
+		char[] chArr = {'b', 'i', 't', 'c', 'a',
+				'm', 'p'};
+		
+		String str3 = new String(chArr);
+		
+		if(str1.equals(str3) && str2.equals(str3)) {
+			System.out.println("str1, str2, str3는"
+					+ " 같은 문자열입니다.");
+		} else {
+			System.out.println("str1, str2, str3는"
+					+ " 다른 문자열입니다.");
+		}
+		
+		char ch = str1.charAt(4);
+		System.out.println("str1의 index 4에 있는 문자는"
+				+ ch + "입니다.");
+		
+		if(str1.compareTo(str2) == 0) {
+			System.out.println("같습니다.");
+		} else {
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

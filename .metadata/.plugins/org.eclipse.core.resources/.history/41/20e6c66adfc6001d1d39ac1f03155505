@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package chap08_static;
+
+/**
+ * @author bitcamp
+ *
+ */
+public class _01_useOfStatic {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

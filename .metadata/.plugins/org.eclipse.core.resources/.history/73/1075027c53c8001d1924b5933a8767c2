@@ -1,0 +1,15 @@
+package chap13_objectarray;
+
+import chap13_objectarray.clazz.Lecture;
+
+public class _01_objectArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Lecture[] lecArr = new Lecture[3];
+		
+		lecArr[0] = new Lecture("자바", 30, 50);
+		lecArr[1] = new Lecture("c언어", 29, 45);
+	}
+
+}

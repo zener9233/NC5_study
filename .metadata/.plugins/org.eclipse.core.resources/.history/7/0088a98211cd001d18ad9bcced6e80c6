@@ -1,0 +1,9 @@
+package chap17_generic.clazz;
+
+public class BoardFile<T> {
+	private int boardNo;
+	private int tyte;
+	private String boardFileNm;
+	
+	private T t;
+}

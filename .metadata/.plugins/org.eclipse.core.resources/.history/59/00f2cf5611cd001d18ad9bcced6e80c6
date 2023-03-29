@@ -1,0 +1,6 @@
+package chap17_generic.clazz;
+
+public class BoardFile {
+	int nBoardNo;
+	int fBaordNo;
+}

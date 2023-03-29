@@ -1,0 +1,13 @@
+package chap15_usefulClass;
+
+import java.text.DecimalFormat;
+
+public class _23_decimalFormatter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DecimalFormat df = 
+				new DecimalFormat("###,###");
+	}
+
+}

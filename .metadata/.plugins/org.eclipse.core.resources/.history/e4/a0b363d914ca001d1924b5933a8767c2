@@ -1,0 +1,14 @@
+package chap15_usefulClass;
+
+import java.time.LocalDateTime;
+
+public class _26_zonedOffsetDateTime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDateTime ldt = LocalDateTime.now();
+		
+		ZoneId zid = ZoneId.of("Asia/Seoul")
+	}
+
+}

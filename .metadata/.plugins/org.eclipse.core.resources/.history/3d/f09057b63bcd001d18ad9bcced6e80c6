@@ -1,0 +1,13 @@
+package chap18_enum.eunms;
+
+public enum CusMonth {
+	//지정하는 상수는 모두 static final
+	//값을 변경할 수 없다.
+	JAN{1},
+	
+	private final int month;
+	
+	CusMonth(int month) {
+		this.month = month;
+	}
+}

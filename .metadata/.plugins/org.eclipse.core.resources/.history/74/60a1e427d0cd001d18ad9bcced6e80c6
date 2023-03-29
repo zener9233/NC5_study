@@ -1,0 +1,12 @@
+package chap18_enum;
+
+import chap18_enum.eunms.DefaultMonth;
+
+public class _02_withDefaultEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DefaultMonth jan = DefaultMonth.JAN;
+	}
+
+}

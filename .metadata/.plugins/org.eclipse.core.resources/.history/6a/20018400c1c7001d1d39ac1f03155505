@@ -1,0 +1,13 @@
+package chap12_nestedclass.clazz;
+
+public class Car {
+	public void speedUp() {
+		class Engine {
+			int fuelAmount;
+			
+			public Engine(int fuelAmount) {
+				
+			}
+		}
+	}
+}

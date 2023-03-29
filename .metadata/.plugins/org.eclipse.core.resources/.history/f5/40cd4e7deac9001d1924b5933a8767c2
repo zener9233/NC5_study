@@ -1,0 +1,12 @@
+package chap15_usefulClass;
+
+import java.math.BigDecimal;
+
+public class _17_bigDecimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BigDecimal bd1 = new BigDecimal
+	}
+
+}

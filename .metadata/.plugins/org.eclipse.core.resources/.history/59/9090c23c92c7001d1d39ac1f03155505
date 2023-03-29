@@ -1,0 +1,10 @@
+package chap10_abstraction.academy;
+
+public abstract class Academy {
+	public int classCnt;
+	public int studentCnt;
+	public int teacherCnt;
+	public int subjectCnt;
+	
+	public abstract void teach();
+}

@@ -1,0 +1,14 @@
+package chap15_usefulClass;
+
+public class _11_Integer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Integer 생성사 자바 9버전부터는 사용불가
+		Integer num1 = Integer.valueOf(100);
+		Integer num2 = Integer.valueOf(100);
+		
+		System.out.println(num1 == num2);
+	}
+
+}

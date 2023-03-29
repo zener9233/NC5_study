@@ -1,0 +1,9 @@
+package chap17_generic.clazz;
+
+public class BoardFile {
+	//T == FreeBoard는 boardNo == fBoardNo
+	//T == NoticeBoard는 boardNo == nBoardNo
+	private int boardNo;
+	private int type;
+	private String fileNm;
+}

@@ -1,0 +1,15 @@
+package chap10_abstraction.product;
+
+public class LgTv extends Tv {
+	public void powerOn() {
+		System.out.println("제조사 : lg");
+	}
+	
+	public void powerOff() {
+		System.out.println("제조사 : lg");
+	}
+	
+	public void operate(int channel) {
+		
+	}
+}	

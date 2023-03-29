@@ -1,0 +1,27 @@
+package chap16_collectionFramework;
+
+import java.util.ArrayList;
+
+public class _02_arrayListWithType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//타입을 지정한 ArrayList 선언
+		//선언부와 생성자부분에 <>를 이용해서 타입을 지정
+		ArrayList<String> strArrList = 
+					new ArrayList<String>();
+		
+		ArrayList<Car> carArrList = 
+					new ArrayList<Car>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

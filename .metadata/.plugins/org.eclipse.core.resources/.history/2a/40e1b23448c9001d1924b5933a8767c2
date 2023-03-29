@@ -1,0 +1,27 @@
+package chap15_usefulClass;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class _14_regex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//[a-zA-Z0-9]{20} a~z, A~Z, 0~9의 조합 8~20자리까지
+		//[.문자] : .뒤의 문자를 하나이상 포함
+		//@[a-zA-Z0-9.-] -하나 이상을 포함하는 a~z, A~Z, 0~9의 조합
+		//\.[a-zA-Z]{2,} . + a~z, A~Z의 조합, 두 자리이상
+		String pattern = "[a-zA-Z0-9]{8, }.*+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
+		String email = "aaa12345@b-bb.ccc";
+		
+		Pattern pt = Pattern.compile(pattern);
+		Matcher m = pt.matcher(email);
+		
+		if(m.matches()) {
+			System.out.println("올바른 형식입니다.");
+		} else {
+			System.out.println("잘못된 형식입니다.");
+		}
+	}
+
+}

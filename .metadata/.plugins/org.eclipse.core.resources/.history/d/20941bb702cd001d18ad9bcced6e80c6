@@ -1,0 +1,14 @@
+package chap98_homework.nc230327;
+
+import chap98_homework.nc230327.phoneinfo.PhoneInfo;
+
+public class _03_middlePhoneInfo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PhoneInfo pi = new PhoneInfo();
+		
+		
+	}
+
+}

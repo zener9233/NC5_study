@@ -1,0 +1,19 @@
+package chap18_enum.eunms;
+
+public enum CusMonth {
+	//지정하는 상수는 모두 static final
+	//값을 변경할 수 없다.
+	JAN(1), FEB(2), MAR(3), APR(4),
+	MAY(5), JUN(6), JUL(7), AUG(8),
+	SET(9), OCT(10), NOV(11), DEC(12);
+	
+	private final int CUS_MONTH;
+	
+	CusMonth(int month) {
+		CUS_MONTH = month;
+	}
+	
+	public int getMonth() {
+		return CUS_MONTH;
+	}
+}

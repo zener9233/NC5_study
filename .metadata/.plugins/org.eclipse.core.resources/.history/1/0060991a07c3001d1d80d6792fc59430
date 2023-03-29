@@ -1,0 +1,10 @@
+package chap99_etc;
+
+public class _05_inputNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("1~200사이의 숫자를 입력하세요. ");
+	}
+
+}

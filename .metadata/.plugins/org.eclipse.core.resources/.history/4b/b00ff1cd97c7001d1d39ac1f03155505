@@ -1,0 +1,10 @@
+package chap11_interface;
+
+public class _01_interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Build bd = new HighBuilding();
+	}
+
+}

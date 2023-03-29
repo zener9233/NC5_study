@@ -1,0 +1,7 @@
+package chap12_nestedclass.clazz;
+
+public class Car {
+	public void speedUp() {
+		
+	}
+}

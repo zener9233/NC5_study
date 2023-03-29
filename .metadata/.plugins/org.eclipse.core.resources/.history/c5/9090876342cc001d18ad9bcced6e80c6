@@ -1,0 +1,30 @@
+package chap16_collectionFramework;
+
+import java.util.ArrayList;
+
+public class _01_arrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//타입을 지정하지 않으면 자동적으로 Object가 지정
+		ArrayList list1 = new ArrayList();
+		ArrayList list2 = new ArrayList();
+		
+		//데이터 추가(add)
+		list1.add(1);
+		list1.add(2);
+		list1.add(3);
+		list1.add(6);
+		list1.add(5);
+		list1.add(4);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

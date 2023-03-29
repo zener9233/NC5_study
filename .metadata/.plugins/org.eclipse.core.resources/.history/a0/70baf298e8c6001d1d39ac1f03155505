@@ -1,0 +1,9 @@
+package chap09_polymorphism.product;
+
+public class AirCon extends ElectronicDevice{
+	public int lastTemperature;
+	
+	public void powerOn(int temperature) {
+		
+	}
+}

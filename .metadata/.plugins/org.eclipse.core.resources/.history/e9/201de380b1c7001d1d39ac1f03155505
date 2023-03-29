@@ -1,0 +1,16 @@
+package chap12_nestedclass;
+
+public class _01_innerStaticNestedClass {
+	//인스턴스 클래스 선언
+	class Add {
+		int num1 = 100;
+		//static 변수는 static 클래스만에서만 사용가능
+		//static int num2 = 200;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

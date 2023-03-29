@@ -1,0 +1,9 @@
+package chap12_nestedclass.clazz;
+
+public class NestedClass {
+	//인스턴스 중첩 클래스
+	public class Mul {
+		
+	}
+	//정적 중첩 클래스
+}

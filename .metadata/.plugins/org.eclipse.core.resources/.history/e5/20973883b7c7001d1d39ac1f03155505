@@ -1,0 +1,10 @@
+package chap12_nestedclass;
+
+public class _02_instanceOfNestedClass {
+
+	public static void main(String[] args) {
+		//외부클래스의 객체 생성
+		NestedClass nc = new NestedClass();
+	}
+
+}

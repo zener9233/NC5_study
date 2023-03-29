@@ -1,0 +1,22 @@
+package chap14_exception;
+
+public class _01_tryCatchFinally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = {1, 2, 3};
+		
+		int index = 0;
+		
+		while(true) {
+			try {
+				System.out.println(arr[index++]);
+			} catch(Exception e) {
+				System.out.println(index + "는 배열에 존재하지 않는 인덱스입니다.");
+			} finally {
+				
+			}
+		}
+	}
+
+}

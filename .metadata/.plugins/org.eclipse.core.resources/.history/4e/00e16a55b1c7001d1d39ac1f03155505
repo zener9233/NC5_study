@@ -1,0 +1,13 @@
+package chap12_nestedclass;
+
+public class _01_innerStaticNestedClass {
+	//인스턴스 클래스 선언
+	class Add {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

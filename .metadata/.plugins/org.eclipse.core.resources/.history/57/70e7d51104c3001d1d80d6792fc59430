@@ -1,0 +1,24 @@
+package chap99_etc;
+
+public class _03_mathRandom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. 난수발생 첫번째 방식
+		//Math.random() 사용
+		//0 <= Math.random() < 1 사이의 난수
+		System.out.println(Math.random());
+		
+		//2. 1 <= 난수 < 11
+		//0 <= rand < 10
+		int rand = Math.random() * 10;
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
