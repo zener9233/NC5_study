@@ -1,5 +1,0 @@
-package chap11_interface.buildings;
-
-public class HighBuilding implements Building {
-
-}

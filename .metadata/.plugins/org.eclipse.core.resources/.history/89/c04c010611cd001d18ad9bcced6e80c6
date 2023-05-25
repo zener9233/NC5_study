@@ -1,7 +1,0 @@
-package chap17_generic.clazz;
-
-public class FreeBoard {
-	private int fBoardNo;
-	private String fBoardTitle;
-	private String fBoardContent;
-}

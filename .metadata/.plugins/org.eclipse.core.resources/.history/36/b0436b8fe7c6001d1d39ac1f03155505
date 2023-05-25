@@ -1,7 +1,0 @@
-package chap09_polymorphism.product;
-
-public class ElectronicDevice {
-	public void powerOn() {
-		
-	}
-}

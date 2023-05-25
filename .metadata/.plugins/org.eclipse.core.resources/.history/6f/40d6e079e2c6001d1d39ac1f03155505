@@ -1,7 +1,0 @@
-package chap08_static.clazz;
-
-public class Weight {
-	public void twoWeightSum() {
-		
-	}
-}
