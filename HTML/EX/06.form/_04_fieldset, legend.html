@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 안의 태그를 그룹으로 묶어주는 fieldset, legend</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            margin:  20px;
+        }
+        li label{
+            width: 80px;
+        }
+        fieldset{
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fidelset>
+            <legend>주문자정보</legend>
+            <ul>
+                <li>
+                    <label for="username">주는사람</label>
+                    <input type="text"
+                    id = "username">
+                </li>
+                <li>
+                    <label for="phonenumber">연락처</label>
+                    <input type="text" id="phonenumber">
+                </li>
+            </ul>
+        </fidelset>
+        <fidelset>
+            <legend>배송지 정보</legend>
+            <ul>
+                <li>
+                    <label for="receivename">받는사람</label>
+                    <input type="text"
+                    id = "receivename">
+                </li>
+                <li>
+                    <label for="addr">연락처</label>
+                    <input type="text" id="addr">
+                </li>
+            </ul>
+        </fidelset>
+    </form>
+</body>
+</html>
